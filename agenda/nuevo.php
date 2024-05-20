@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $linkedin = isset($_POST['linkedin']) ? $_POST['linkedin']: null;
 
     // Variables
-    $hostDB = 'localhost';
+    $hostDB = '10.0.2.16';
     $nombreDB = 'bdagenda';
     $usuarioDB = 'root';
     $contrasenyaDB = '123456'; 
